@@ -1,0 +1,75 @@
+/*1.RESET CSS*/ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*box-sizing calcula a largura e altura do elemento, mantendo-o dentro dos limites especificados*/
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f5f5f5;
+    color: #333;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/*2. ESTILOS GERAIS DA PÁGINA*/
+
+.card-receita {
+    width: 350px; /*largura fixa do card*/
+    background-color: #ffffff;
+    border-radius: 15px; /*cantos arredondados*/
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.1
+    ); /*uma sombra sutil*/
+
+    /*A MÁGICA PARA CANTOS ARREDONDADOS NA IMAGEM:*/
+    /*
+    Esta propriedade "corta" qualquer elemento filho (img por ex) que tente vazar para fora dos cantos da card:
+    */
+    overflow: hidden;
+}
+
+/*3. ESTILOS DA IMAGEM:*/
+.img-receita {
+
+/*FAZ A IMAGEM SER RESPONSIVA AO CONTAINER:*/
+    /*
+    A imagem ocupará 100% da largura do elemento pai, sua altura se ajustará automaticamente para manter a proporção:
+    */
+    width: 100%;
+
+/*Garante que o navegador renderize a imagem como um bloco, removendo pequenos espaços que podem aparecer abaixo dele. É uma boa prática:*/
+    display: block;    
+
+}
+
+/*4. ESTILOS PARA O CONTEÚDO DE TEXTO:*/
+
+.conteudo-receita {
+
+/*aqui o padding da um leve respiro interno no texto, afastando-o da borda do card:*/
+    padding: 25px;    
+}
+
+.titulo-receita {
+    font-size: 1.5rem; /*24px*/
+    color: #4a4a4a;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.descricao-receita {
+    font-size: 1rem; /*16px*/
+
+/*Espaçamento entre as linhas do paragrafo:*/    
+    line-height: 1.5;
+
+    color: #666;
+
+/*Remove a margem abaixo do último elemento:*/    
+    margin-bottom: 0;
+} 
