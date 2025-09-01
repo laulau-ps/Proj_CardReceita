@@ -1,53 +1,36 @@
-Proj_CardReceita
-Descrição do Projeto
+  <h1>🎨 Cartão de Receita</h1>
+  <hr>
 
-O Proj_CardReceita é um projeto desenvolvido em HTML que consiste em um cartão digital apresentando uma receita de forma visual e resumida. O objetivo é proporcionar ao visitante uma apresentação rápida e atrativa da receita Salada Caesar Clássica, incluindo uma imagem ilustrativa e uma breve descrição.
+  <h2>📝 Descrição do projeto</h2>
+  <p>Este é um projeto de uma página web estática que exibe um cartão de receita. A aplicação foi desenvolvida com foco em um design limpo e responsivo, ideal para ser usado em blogs de culinária ou sites de receitas. O cartão inclui uma imagem da receita, um título e uma breve descrição.</p>
 
-O projeto é ideal para quem deseja compartilhar receitas de maneira prática, destacando apenas o nome, a imagem e uma pequena descrição do prato, sem detalhar o modo de preparo.
+  <h2>✨ Funcionalidades</h2>
+  <p>⭐ **Design de Cartão:** Layout compacto e elegante para exibir informações de uma receita.</p>
+  <br>
+  <p>📱 **Responsivo:** O design se adapta para ter uma boa visualização em diferentes tamanhos de tela.</p>
+  <br>
+  <p>🖼️ **Bordas Arredondadas:** A imagem e o cartão possuem bordas arredondadas, proporcionando um visual mais suave.</p>
+  <br>
+  <p>🖌️ **Estilo Minimalista:** Foco em um design limpo e direto, utilizando sombras sutis e cores neutras.</p>
+  <br>
 
-Estrutura do Projeto
+  <h2>🚀 Tecnologias utilizadas</h2>
+  <p><strong>HTML5:</strong> Para a estrutura e a semântica da página.</p>
+  <p><strong>CSS3:</strong> Responsável pela estilização do cartão, da imagem e dos textos, incluindo o uso de box-sizing e overflow para um design otimizado.</p>
 
-O projeto contém uma página principal com um cartão centralizado que apresenta:
+  <h2>⚙️ Como acessar</h2>
+  <p>Para visualizar o projeto, você pode acessá-lo diretamente pelo link de seu site.</p>
 
-A imagem da receita.
+  <h2>📁 Estrutura de pastas</h2>
+  <pre>
+.
+├── index.html
+├── css/
+│   └── style.css
+└── midia/
+  ├── icone_receita.png
+  └── saladacaeser.jpg
+  </pre>
 
-O título da receita.
-
-Uma descrição breve, destacando características da receita, como leveza, sabor e facilidade de preparo.
-
-O layout é limpo, organizado e visualmente agradável, facilitando a leitura e compreensão do conteúdo.
-
-Funcionalidades
-
-O cartão digital permite aos visitantes:
-
-Visualizar o nome da receita.
-
-Observar a imagem ilustrativa da receita.
-
-Ler uma descrição resumida que destaca os principais atributos do prato.
-
-Navegar de forma simples, com foco na apresentação visual.
-
-Tecnologias Utilizadas
-
-O projeto foi desenvolvido utilizando HTML5 para a estruturação do conteúdo e CSS3 para estilização e layout, garantindo compatibilidade com navegadores modernos e uma apresentação visual agradável.
-
-Como Utilizar
-
-Para visualizar o cartão da receita:
-
-Clone o repositório para o seu computador.
-
-Abra o arquivo index.html em qualquer navegador moderno.
-
-Explore o cartão para conhecer rapidamente a receita apresentada.
-
-Autor
-
-O projeto foi desenvolvido por Laura Sena. O perfil do autor no GitHub pode ser consultado para conhecer outros projetos e contribuições.
-
-Licença
-
-Este projeto está licenciado sob a licença MIT, permitindo seu uso, cópia e modificação mediante atribuição ao autor.
-
+  <h2>Autores</h2>
+  <p><strong>Laura Sena</strong></p>
