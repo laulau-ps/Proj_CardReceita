@@ -19,7 +19,7 @@
   <p><strong>CSS3:</strong> Responsável pela estilização do cartão, da imagem e dos textos, incluindo o uso de box-sizing e overflow para um design otimizado.</p>
 
   <h2>⚙️ Como acessar</h2>
-  <p>Para visualizar o projeto, você pode acessá-lo diretamente pelo link de seu site.</p>
+  <p>Para visualizar o projeto, você pode acessá-lo diretamente pelo link: https://laulau-ps.github.io/Proj_CardReceita/</p>
 
   <h2>📁 Estrutura de pastas</h2>
   <pre>
@@ -34,3 +34,4 @@
 
   <h2>Autores</h2>
   <p><strong>Laura Sena</strong></p>
+
